@@ -57,9 +57,18 @@ Please email any questions to rjknapman@gmail.com
   2. Under "Other Settings" in the Inspector panel, replace "TwodFSurvey" in the bundle identifier with the name of the new survey.
   3. If you plan on submitting an update to Google Play, increment the Version and the Bundle Version Code by 1.
   4. FOR THE FIRST TIME ONLY under "Publishing Settings", create a new keystore. Remember the password (for all of the projects so far it is "survey"). IF YOU CREATE A NEW KEYSTORE ONCE IT'S BEEN SUBMITTED TO GOOGLE PLAY, YOU WILL NOT BE ABLE TO SUBMIT A NEW UPDATE so always "Use Existing Keystore" after publishing.
-21. Commit the changes on GitHub:
-  1. Write a summary of the changes made and click "Commit to master".
-  2. Click "Sync".
+21. Upload the new project to GitHub:
+  1. In Unity, select "Edit", "Project Settings", "Editor".
+  2. Ensure the version control mode is set to "Visible Meta Files".
+  3. Ensure the Asset Serialisation is set to "Force Text".
+  4. On the GitHub website, create a new repository named "Cardboard-Universe-[Name of New Survey]
+  5. Add the .gitignore Unity template.
+  6. Once the repository is created, clone it to the GitHub desktop like when this was downloaded.
+  7. Open up the project in Finder.
+  8. Copy and paste the Assets, Project Settings, and Data folders to the newly-created local repository.
+  9. Click the icon in to top-right-hand corner in GitHub desktop to change to the local respository.
+  10. Commit the changes to master.
+  11. Select "Sync" to upload the new project to GitHub.
 
 I'm pretty sure this is complete, though I have most likely missed out some minor steps along the way so feel free to email me with any questions if you run into problems.
 
