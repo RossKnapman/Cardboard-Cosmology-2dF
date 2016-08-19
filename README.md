@@ -69,6 +69,7 @@ Please email any questions to rjknapman@gmail.com
   9. Click the icon in to top-right-hand corner in GitHub desktop to change to the local respository.
   10. Commit the changes to master.
   11. Select "Sync" to upload the new project to GitHub.
+  12. Add this README file to the repository.
 
 I'm pretty sure this is complete, though I have most likely missed out some minor steps along the way so feel free to email me with any questions if you run into problems.
 
