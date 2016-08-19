@@ -1,5 +1,6 @@
 # Cardboard-Universe-2dF
 Please email any questions to rjknapman@gmail.com
+
 ## Adding a New Survey
 1. Download [Unity](https://unity3d.com/) (Personal Edition is fine).
 2. Download [GitHub Desktop](https://desktop.github.com/).
@@ -57,3 +58,10 @@ Please email any questions to rjknapman@gmail.com
   2. Click "Sync".
 
 I'm pretty sure this is complete, though I have most likely missed out some minor steps along the way so feel free to email me with any questions if you run into problems.
+
+## File Structure
+
+### Assets
+
+#### Google VR
+The Google VR SDK for Unity, which contains the required scripts and prefabs, such as the camera.
