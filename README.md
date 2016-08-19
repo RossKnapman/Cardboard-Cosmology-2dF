@@ -20,9 +20,13 @@ For example, the programme to convert the 2dF data includes the line:
 
 ascii.write(dataTable, "../Assets/Resources/2dFProcessed.txt", delimiter=",", format="no_header")
 
+Run this programme to place the data in the required location.
+
 While writing the programme, make a note of how many units in the Cartesian output correspond to 1 redshift unit. For example, for the 2dF survey, 1000 Cartesian output units correspond to 1 redshift unit.
 
 9. In Assets/Runtime Scripts/Scale Grid/CreateGrid.cs, set redshiftScale on line 7 to the value noted down previously.
 10. In the same script, set intervalLength on line 9 to the desired number of units in the Unity visualisation space between successive scale rings.
 11. In Assets/Resources/Constants.txt, replace the 300 with the outer limit in Unity visualisation space units that the camera can reach in any dimension from the origin, which also corresponds to the radius of the outer ring of the scale grid (you can decided on this by playing around in Unity). Note that you may wish to override this in the script to draw the scale grid to prevent confusion with a distance in ly greater than the age of the universe, see the CreateGrid.cs script in the WiggleZ repository for an example of when this has been the case.
 12. Also in CreateGrid.cs, you frustratingly must manually input the distance in Gly corresponding to each redshift, so write the code to do this in the format of lines 39-48. You can find the values for each redshift value using the calculator [here](http://www.astro.ucla.edu/~wright/CosmoCalc.html).
+13. In Assets/Runtime Scripts/AddGalaxies.cs, for any colour values that are to remain constant for all galaxies set the values, e.g. 0.5f.
+14. For any colour values which are to vary between galaxies, set them from the required index in the text file containing the processed data.
