@@ -1,4 +1,5 @@
 # Cardboard-Universe-2dF
+Please email any questions to rjknapman@gmail.com
 ## Adding a New Survey
 1. Download [Unity](https://unity3d.com/) (Personal Edition is fine).
 2. Download [GitHub Desktop](https://desktop.github.com/).
