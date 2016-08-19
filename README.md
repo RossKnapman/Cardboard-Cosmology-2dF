@@ -102,4 +102,10 @@ The app's logo.
 Stores information about the project settings. Unity generates these files; they do not need to be modified manually.
 
 ### Data
-When uploading a Unity project to GitHub, generally only the 
+When uploading a Unity project to GitHub, generally only the "Assets" and "Project Settings" folders need to be uploaded as Unity generates the rest, but I have included the third folder "Data" which contains the raw data and a programme to process it.
+
+#### The Data .txt File
+This various a lot between surveys, so requires a Python programme to transfer it to the required format.
+
+# The Python Data Conversion File
+Converts the raw data to the required format as previously specified and adds to to the folder Assets/Resources/. See the existing repositories for examples of such data conversion.
