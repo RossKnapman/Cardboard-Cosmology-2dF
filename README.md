@@ -9,6 +9,7 @@ Please email any questions to rjknapman@gmail.com
 5. Replace the "2dF" in the project name with the name of the new survey.
 6. In the project, delete the contents of the "Data" folder.
 7. In Assets, rename "2dF Visualisation.unity" to "[Name of Survey] Visualisation.unity".
+8. Delete "2dFLogo.png".
 7. Delete "2dFProcessed.txt" in Assets/Resources.
 7. Add the raw data for the new survey, e.g. in the form of a .txt file.
 8. Write a Python programme to convert the raw data to the table below, in a .txt file, with the values separated by commas in the format:
@@ -47,6 +48,7 @@ Please email any questions to rjknapman@gmail.com
 16. Change "2dFProcessed" in line 30 to [Name of New Survey]Processed.
 17. In Assets/Runtime Scripts/, on line 13, change the speed that the camera flies around the survey if desired.
 18. Change the logo:
+  1. Create the logo as a .png file and resize it to 512x512px. Place it in "Assets".
   1. In Unity, select "File", "Build Settings...", "Player Settings" and "Select" under "Default Icon" in the Inspector panel. Select the new logo. (To open the project in Unity, select "Open" and navigate the the repository.)
   2. In "Icon", next to the 192x192 option, select the same logo.
 19. Generally tweak the project.
