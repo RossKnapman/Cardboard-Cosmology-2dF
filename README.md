@@ -37,3 +37,5 @@
   x, y, z, R, B
   
   So the R value would be at index 3, hence set redValue = galaxyData [i][3], and blueValue = galaxyData [i][4]
+15. If the particle size varies between galaxies, this can be set in a similar way to the colour.
+  1. D
