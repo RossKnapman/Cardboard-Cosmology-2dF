@@ -65,3 +65,16 @@ I'm pretty sure this is complete, though I have most likely missed out some mino
 
 #### Google VR
 The Google VR SDK for Unity, which contains the required scripts and prefabs, such as the camera.
+
+#### Materials
+Stores any custom-made materials, e.g. the material of the galaxy particles.
+
+#### Plugins
+Contains any plugins that extend Unity's features. I haven't added any, but I deleted the iOS one because there was a file that was greater than GitHub's 100 mb limit.
+
+#### Resources
+Contains any files that are to be accessed by the runtimes scripts.
+##### [Name of Survey]Processed.txt
+Contains the data that has been processed and is ready to be accessed by AddGalaxies.cs. Contains x, y, z coordinates, possible R, G, B values, and possibly the radius of each galaxy.
+##### Constants.txt
+Stores any constants that are to be accessed by more than one script. Currently only contains the outer boundary of the visualisation in Unity units in each dimension, used to determine when to stop the camera if it moves too far from the origin and the radius of the outer scale ring.
