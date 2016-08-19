@@ -43,7 +43,7 @@
 16. Change "2dFProcessed" in line 30 to [Name of New Survey]Processed.
 17. In Assets/Runtime Scripts/, on line 13, change the speed that the camera flies around the survey if desired.
 18. Change the logo:
-  1. In Unity, select "File", "Build Settings...", "Player Settings" and "Select" under "Default Icon" in the Inspector panel. Select the new logo.
+  1. In Unity, select "File", "Build Settings...", "Player Settings" and "Select" under "Default Icon" in the Inspector panel. Select the new logo. (To open the project in Unity, select "Open" and navigate the the repository.)
   2. In "Icon", next to the 192x192 option, select the same logo.
 19. Generally tweak the project.
 20. Build the apk:
