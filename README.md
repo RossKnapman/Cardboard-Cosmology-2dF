@@ -11,7 +11,7 @@
 
   x position, y position, z position, Red, Green, Blue, Radius of particles
   
-  for each galaxy, with each galaxy separated by a new line
+  for each galaxy, with each galaxy separated by a new line.
 
   Note that you may choose to keep some or all of the RGB values and and radius of the particles constant, and hence would not need to include this in the file
 
@@ -31,3 +31,9 @@
 12. Also in CreateGrid.cs, you frustratingly must manually input the distance in Gly corresponding to each redshift, so write the code to do this in the format of lines 39-48. You can find the values for each redshift value using the calculator [here](http://www.astro.ucla.edu/~wright/CosmoCalc.html).
 13. In Assets/Runtime Scripts/AddGalaxies.cs, for any colour values that are to remain constant for all galaxies set the values, e.g. 0.5f.
 14. For any colour values which are to vary between galaxies, set them from the required index in the text file containing the processed data.
+
+  For example, say the data contains the Cartesian coordinates, red values, and blue values. Each line would be in the format:
+  
+  x, y, z, R, B
+  
+  So the R value would be at index 3, hence set redValue = galaxyData [i][3], and blueValue = galaxyData [i][4]
