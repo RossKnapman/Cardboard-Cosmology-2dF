@@ -48,3 +48,8 @@
 19. Generally tweak the project.
 20. Build the apk:
   1. Select "File", "Build Settings..."
+  2. Under "Other Settings" in the Inspector panel, replace "TwodFSurvey" in the bundle identifier with the name of the new survey.
+  3. If you plan on submitting an update to Google Play, increment the Version and the Bundle Version Code by 1.
+  4. FOR THE FIRST TIME ONLY under "Publishing Settings", create a new keystore. Remember the password (for all of the projects so far it is "survey"). IF YOU CREATE A NEW KEYSTORE ONCE IT'S BEEN SUBMITTED TO GOOGLE PLAY, YOU WILL NOT BE ABLE TO SUBMIT A NEW UPDATE so always "Use Existing Keystore" after publishing.
+
+I'm pretty sure this is complete, though I have most likely missed out some steps along the way so feel free to email me with any questions at rjknapman@gmail.com.
