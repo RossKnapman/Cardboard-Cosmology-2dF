@@ -8,6 +8,7 @@ public class AddGalaxies : MonoBehaviour {
 
 	// Declare the variables specific to the 2dF visualisation
 	static float redValue; // The red value of each particle, on a scale from 0 to 1
+	static float greenValue = 0f; // The green value of each particle, on a scale from 0 to 1
 	static float blueValue; // The blue value of each particle, on a scale from 0 to 1
 
 	// Declare the general variables
@@ -49,11 +50,11 @@ public class AddGalaxies : MonoBehaviour {
 		// Create particles representing the galaxies
 		galaxyParticles = new ParticleSystem.Particle[noGalaxiesInSurvey]; // Array to hold the positions of the particles
 		for (int i = 0; i < noGalaxiesInSurvey; i++) {
-			galaxyParticles [i].position = new Vector3 (galaxyData [i][0], galaxyData [i][1], galaxyData [i][2]); // Set positions of particles
-			galaxyParticles [i].startSize = particleSize; // Set sizes of particles
+			galaxyParticles [i].position = new Vector3 (galaxyData [i][0], galaxyData [i][1], galaxyData [i][2]); // Set positions of particle
  			redValue = galaxyData [i][3]; // Get colour values of particles
 			blueValue = galaxyData [i][4];
-			galaxyParticles [i].startColor = new Color (redValue, 0f, blueValue, alphaValue); // Set colour values of particles
+			galaxyParticles [i].startColor = new Color (redValue, greenValue, blueValue, alphaValue); // Set colour values of particles
+			galaxyParticles [i].startSize = particleSize; // Set sizes of particles
 		}
 		galaxyParticleSystem = gameObject.GetComponent<ParticleSystem> ();
 		galaxyParticleSystem.SetParticles (galaxyParticles, galaxyParticles.Length); // Place the particles in space
