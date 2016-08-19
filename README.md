@@ -8,6 +8,7 @@ Please email any questions to rjknapman@gmail.com
 4. Clone to your desired location.
 5. Replace the "2dF" in the project name with the name of the new survey.
 6. In the project, delete the contents of the "Data" folder.
+7. In Assets, rename "2dF Visualisation.unity" to "[Name of Survey] Visualisation.unity".
 7. Delete "2dFProcessed.txt" in Assets/Resources.
 7. Add the raw data for the new survey, e.g. in the form of a .txt file.
 8. Write a Python programme to convert the raw data to the table below, in a .txt file, with the values separated by commas in the format:
