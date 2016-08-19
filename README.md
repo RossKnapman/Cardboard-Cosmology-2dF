@@ -8,7 +8,7 @@ Please email any questions to rjknapman@gmail.com
 4. Clone to your desired location.
 5. Replace the "2dF" in the project name with the name of the new survey.
 6. In the project, delete the contents of the "Data" folder.
-7. In Assets, rename "2dF Visualisation.unity" to "[Name of Survey] Visualisation.unity".
+7. In Assets, rename "2dF Visualisation.unity" to "[Name of New Survey] Visualisation.unity".
 8. Delete "2dFLogo.png".
 7. Delete "2dFProcessed.txt" in Assets/Resources.
 7. Add the raw data for the new survey, e.g. in the form of a .txt file.
@@ -49,7 +49,7 @@ Please email any questions to rjknapman@gmail.com
 17. In Assets/Runtime Scripts/, on line 13, change the speed that the camera flies around the survey if desired.
 18. Change the logo:
   1. Create the logo as a .png file and resize it to 512x512px. Place it in "Assets".
-  1. In Unity, select "File", "Build Settings...", "Player Settings" and "Select" under "Default Icon" in the Inspector panel. Select the new logo. (To open the project in Unity, select "Open" and navigate the the repository.)
+  1. In Unity, select "File", "Build Settings...", "Player Settings" and "Select" under "Default Icon" in the Inspector panel. Select the new logo. (To open the project in Unity, select "Open", navigate the the repository, and click "Open". To open the scene, in the "Project" window, navigate to Assets, and double-click "[Name of New Survey] Visualisation.unity".)
   2. In "Icon", next to the 192x192 option, select the same logo.
 19. Generally tweak the project.
 20. Build the apk:
@@ -74,7 +74,7 @@ The Google VR SDK for Unity, which contains the required scripts and prefabs, su
 Stores any custom-made materials, e.g. the material of the galaxy particles.
 
 #### Plugins
-Contains any plugins that extend Unity's features. I haven't added any, but I deleted the iOS one because there was a file that was greater than GitHub's 100 mb limit.
+Contains any plugins that extend Unity's features. I haven't added any, but I deleted the iOS one because there was a file that was greater than GitHub's 100 MB limit.
 
 #### Resources
 Contains any files that are to be accessed by the runtimes scripts.
