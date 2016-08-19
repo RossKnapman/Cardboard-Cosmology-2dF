@@ -10,19 +10,19 @@
 8. Write a Python programme to convert the raw data to the table below, in a .txt file, with the values separated by commas in the format:
 
   x position, y position, z position, Red, Green, Blue, Radius of particles
-for each galaxy, with each galaxy separated by a new line
+  for each galaxy, with each galaxy separated by a new line
 
-Note that you may choose to keep some or all of the RGB values and and radius of the particles constant, and hence would not need to include this in the file
+  Note that you may choose to keep some or all of the RGB values and and radius of the particles constant, and hence would not need to include this in the file
 
-Output the data to Assets/Resources/[Name of Survey]Processed.txt
+  Output the data to Assets/Resources/[Name of Survey]Processed.txt
 
-For example, the programme to convert the 2dF data includes the line:
+  For example, the programme to convert the 2dF data includes the line:
 
-ascii.write(dataTable, "../Assets/Resources/2dFProcessed.txt", delimiter=",", format="no_header")
+  ascii.write(dataTable, "../Assets/Resources/2dFProcessed.txt", delimiter=",", format="no_header")
 
-Run this programme to place the data in the required location.
+  Run this programme to place the data in the required location.
 
-While writing the programme, make a note of how many units in the Cartesian output correspond to 1 redshift unit. For example, for the 2dF survey, 1000 Cartesian output units correspond to 1 redshift unit.
+  While writing the programme, make a note of how many units in the Cartesian output correspond to 1 redshift unit. For example, for the 2dF survey, 1000 Cartesian output units correspond to 1 redshift unit.
 
 9. In Assets/Runtime Scripts/Scale Grid/CreateGrid.cs, set redshiftScale on line 7 to the value noted down previously.
 10. In the same script, set intervalLength on line 9 to the desired number of units in the Unity visualisation space between successive scale rings.
