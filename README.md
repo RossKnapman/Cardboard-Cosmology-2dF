@@ -107,5 +107,5 @@ When uploading a Unity project to GitHub, generally only the "Assets" and "Proje
 #### The Data .txt File
 This various a lot between surveys, so requires a Python programme to transfer it to the required format.
 
-# The Python Data Conversion File
+#### The Python Data Conversion File
 Converts the raw data to the required format as previously specified and adds to to the folder Assets/Resources/. See the existing repositories for examples of such data conversion.
