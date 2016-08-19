@@ -2,4 +2,5 @@
 
 ## Editing the Project
 
-1. Download Unity from https://unity3d.com/
+1. Download [Unity](https://unity3d.com/) (Personal Edition is fine).
+2. 
