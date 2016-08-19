@@ -51,7 +51,6 @@ Please email any questions to rjknapman@gmail.com
   1. Create the logo as a .png file and resize it to 512x512px. Place it in "Assets".
   1. In Unity, select "File", "Build Settings...", "Player Settings" and "Select" under "Default Icon" in the Inspector panel. Select the new logo. (To open the project in Unity, select "Open", navigate the the repository, and click "Open". To open the scene, in the "Project" window, navigate to Assets, and double-click "[Name of New Survey] Visualisation.unity".)
   2. In "Icon", next to the 192x192 option, select the same logo.
-19. Generally tweak the project.
 20. Build the apk:
   1. Select "File", "Build Settings...".
   2. Under "Other Settings" in the Inspector panel, replace "TwodFSurvey" in the bundle identifier with the name of the new survey.
