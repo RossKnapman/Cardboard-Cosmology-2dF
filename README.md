@@ -78,3 +78,28 @@ Contains any files that are to be accessed by the runtimes scripts.
 Contains the data that has been processed and is ready to be accessed by AddGalaxies.cs. Contains x, y, z coordinates, possible R, G, B values, and possibly the radius of each galaxy.
 ##### Constants.txt
 Stores any constants that are to be accessed by more than one script. Currently only contains the outer boundary of the visualisation in Unity units in each dimension, used to determine when to stop the camera if it moves too far from the origin and the radius of the outer scale ring.
+
+#### Runtime Scripts
+Contains C# scripts to be run during runtime. Note that they must be attached to (often empty) game objects to be run automatically. The lines within the Start() function are run when the app opens, while those within the Update() function are called once per frame. See the comments for detailed information about each script.
+##### AddGalaxies.cs
+Takes information from the processed data .txt file about e.g. galaxy position, colour, and size, and places the particles in space. Attached to the game object "SpawnGalaxies".
+##### Exit.cs
+Controls the double-click-to-exit feature. Attached to the game object "Exit".
+##### MoveCamera.cs
+Controls the clicking to start/stop moving the gamera. Attached to the game object "GvrMain" (the camera).
+##### CreateGrid.cs
+For drawing the scale circles and text. Attached to the game object "SpawnGrid".
+##### Circle.cs
+For actually drawing the circle. Called by CreateGrid.cs, so not attached to any game object.
+
+#### [Survey Name].unity
+The scene file.
+
+#### [Survey Name]logo.png
+The app's logo.
+
+### Project Settings
+Stores information about the project settings. Unity generates these files; they do not need to be modified manually.
+
+### Data
+When uploading a Unity project to GitHub, generally only the 
